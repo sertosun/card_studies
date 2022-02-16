@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 12px;
+  border: none;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(99, 70, 230);
+  display: flex;
+  justify-content: flex-start;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  background-color: rgb(23, 5, 102);
+}
+
+.border {
+  border-right: 2px solid rgb(99, 70, 230);
+}
+
+h1,
+p {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.reisencont {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 25px;
+  border: none;
+}
+
+.reisen {
+  background-color: rgb(99, 70, 230);
+  display: flex;
+  color: white;
+}
+
+.reisecard {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  margin: 5px 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.reisecardbeitrag {
+  display: flex;
+  background-color: gray;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reisenummer {
+  padding: 1px 10px;
+  background-color: orange;
+  margin: 3px 0;
+}
+
+.reisetext {
+  padding: 15px 25px;
+  background-color: orange;
+  margin: 3px 0;
+}
+
+.reisebild {
+  padding: 15px 35px;
+  background-color: red;
+}
+
+/* HÄUSER BEREICH */
+
+.hausercont {
+  display: flex;
+  flex-direction: column;
+  margin: 25px 25px;
+}
+
+.hauser {
+  background-color: orange;
+  display: flex;
+  color: white;
+}
+
+.hausercard {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.hauserbild {
+  padding: 15px 35px;
+  background-color: rgb(4, 255, 4);
+}
+
+.hausercardbeitrag {
+  display: flex;
+  background-color: yellow;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hauserpreis {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 3px 0;
+  padding: 3px 10px;
+}
+
+.hausernummer {
+  padding: 3px 6px;
+  margin: 0 5px;
+  background-color: gray;
+}
+
+.hausertext {
+  padding: 10px 38px;
+  background-color: rgb(9, 147, 172);
+  margin: 3px 0;
+}
+
+.hauserbutton {
+  background-color: red;
+  margin: 3px 0;
+  padding: 1px 10px;
+}
